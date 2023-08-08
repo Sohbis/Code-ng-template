@@ -1,0 +1,13 @@
+<div>
+  <ng-container
+    *ngTemplateOutlet="template ? template : templateDefault"
+  ></ng-container>
+</div>
+
+<ng-template #templateDefault> Default template </ng-template>
+
+<!-- <ng-template #root>
+  <p>Hello from A</p>
+</ng-template>
+
+<app-menu [template]="root"></app-menu> -->
